@@ -27,7 +27,6 @@ value = int(value)
 # print('Bye')
 
 
-
 while counter < value:
     if counter % 2:
         print(counter)
@@ -40,4 +39,6 @@ while counter < value:
 
 # ten warunek jest juz poza petla
 print('Bye')
+
+
 
