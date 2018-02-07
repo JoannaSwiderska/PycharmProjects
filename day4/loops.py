@@ -8,7 +8,10 @@ value = int(value)
 while counter < value:
     print ('Hello!')
     counter += 1
+# ten warunek jest juz poza petla
 print('Bye')
+
+
 
 
 
