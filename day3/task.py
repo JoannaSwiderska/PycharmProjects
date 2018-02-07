@@ -21,3 +21,5 @@ if not digit % 2:
     print('liczba jest parzysta')
 else:
     print('liczba nie jest parzysta')
+    
+

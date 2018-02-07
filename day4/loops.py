@@ -15,18 +15,29 @@ value = int(value)
 
 # @TODO: wywietl counter tylko jesli jest niearzysty
 
+# while counter < value:
+#     if counter % 2:
+#         print(counter)
+#         counter += 1
+#     else:
+#         counter += 1
+#         continue
+#
+# # ten warunek jest juz poza petla
+# print('Bye')
+
+
+
 while counter < value:
     if counter % 2:
         print(counter)
         counter += 1
+    elif value > 1000:
+            break
     else:
         counter += 1
         continue
 
 # ten warunek jest juz poza petla
 print('Bye')
-
-
-
-
 
