@@ -18,12 +18,23 @@ with open(FILENAME, 'r') as plik:
 # with open(FILENAME, 'a') as plik:
 #     plik.write('ala ma kota\n')
 
+# # w appendzie zawsze dopisuje na koncu wiec nie dziala jak chcemy
+# print('tryb dopisywania')
+# with open(FILENAME, 'a') as plik:
+#     cursor = plik.tell()
+#     print('pozycja kursora w trybie append', cursor)
+#     plik.seek(0)
+#     cursor = plik.tell()
+#     print('kursor przestawiony na pozycje:', cursor)
+#     plik.write('ala ma kota, kot ma ale\n')
 
+
+#w r plus dopisze w dowolnym miejscu
 print('tryb dopisywania')
-with open(FILENAME, 'a') as plik:
+with open(FILENAME, 'r+') as plik:
     cursor = plik.tell()
     print('pozycja kursora w trybie append', cursor)
     plik.seek(0)
     cursor = plik.tell()
     print('kursor przestawiony na pozycje:', cursor)
-    plik.write('ala ma kota, kot ma ale\n')
+    plik.write('ala ma kota, kot ma ale 2\n')
