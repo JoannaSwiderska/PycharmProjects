@@ -1,0 +1,5 @@
+record id;first name;last name;address;mobile phone
+1;Jan;Kowalski;Sezame Street 13, New York;123 456 789
+2;Andrzej;Nowak;ABC Street 10, Chicago;123 123 123
+3;Basia;Malinowska;Basztowa Street 1, Kraków;999 999 999
+4;Asia;Œwiderska;n/a;n/a
